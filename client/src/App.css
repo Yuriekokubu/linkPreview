@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Prompt', sans-serif;
+}
+
+.navbar-brand:hover {
+  color: grey;
+}
+
+#zipload:hover {
+  background-color: rgb(245, 245, 245) !important;
+  cursor: pointer;
+}
+
+.MuiBadge-colorError-5:hover {
+  background-color: rgb(236, 125, 125);
+}
+
+.gridjs-td:last-child {
+  padding: 0 !important;
+}
+
+thead {
+  background-color: rgb(132, 134, 233);
+}
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 300px;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
